@@ -1,0 +1,37 @@
+# Core AWS and LLM dependencies
+boto3
+botocore
+
+# Vector database
+pinecone
+
+# LangChain for text processing
+langchain
+langchain-community
+langchain-text-splitters
+
+# Web framework
+fastapi
+uvicorn[standard]
+
+# Configuration management
+pydantic
+pydantic-settings
+python-dotenv
+
+# Text processing and utilities
+tiktoken
+unstructured
+
+# Logging and monitoring
+structlog
+
+# Development and testing
+pytest
+pytest-asyncio
+httpx  # For testing FastAPI
+
+# Optional: For enhanced document processing
+pypdf
+python-docx
+openpyxl

@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  rag-api:
+    build:
+      context: ../../
+      dockerfile: deployment/docker/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - AWS_REGION=${AWS_REGION:-us-east-1}
+      - PINECONE_API_KEY=${PINECONE_API_KEY:-placeholder_key}
+      - PINECONE_ENVIRONMENT=${PINECONE_ENVIRONMENT:-us-east-1-aws}
+      - PINECONE_INDEX_NAME=${PINECONE_INDEX_NAME:-rag-documents}
+      - BEDROCK_EMBED_MODEL_ID=${BEDROCK_EMBED_MODEL_ID:-amazon.titan-embed-text-v2:0}
+      - BEDROCK_LLM_MODEL_ID=${BEDROCK_LLM_MODEL_ID:-us.anthropic.claude-sonnet-4-20250514-v1:0}
+      - TOP_K=${TOP_K:-5}
+      - SIMILARITY_THRESHOLD=${SIMILARITY_THRESHOLD:-0.7}
+      - MAX_TOKENS=${MAX_TOKENS:-1000}
+      - TEMPERATURE=${TEMPERATURE:-0.1}
+      - CHUNK_SIZE=${CHUNK_SIZE:-1000}
+      - CHUNK_OVERLAP=${CHUNK_OVERLAP:-200}
+      - API_TITLE=${API_TITLE:-RAG Document Query API}
+      - API_DESCRIPTION=${API_DESCRIPTION:-Retrieval-Augmented Generation API for document querying}
+      - API_VERSION=${API_VERSION:-1.0.0}
+      - RELOAD=${RELOAD:-false}
+    volumes:
+      - ../../src:/app/src
+      - ../../data:/app/data
+      - ../../logs:/app/logs
+    command: uvicorn src.app:app --host 0.0.0.0 --port 8000 --reload
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 15s
+      retries: 3
+      start_period: 120s
+    restart: unless-stopped
+    networks:
+      - rag-network
+
+networks:
+  rag-network:
+    driver: bridge 

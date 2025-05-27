@@ -1,0 +1,103 @@
+ACME Corporation Employee Handbook
+
+Remote Work Policy
+
+Effective Date: January 1, 2024
+
+1. PURPOSE AND SCOPE
+
+This Remote Work Policy establishes guidelines for employees working from locations other than ACME Corporation's primary office facilities. This policy applies to all full-time and part-time employees who have been approved for remote work arrangements.
+
+2. ELIGIBILITY CRITERIA
+
+Employees may be eligible for remote work if they:
+- Have been employed with ACME Corporation for at least 6 months
+- Demonstrate strong self-discipline and time management skills
+- Have a suitable home office environment with reliable internet connectivity
+- Receive approval from their direct supervisor and HR department
+- Meet all performance standards and expectations
+
+3. EQUIPMENT AND TECHNOLOGY
+
+ACME Corporation will provide:
+- Laptop computer with necessary software licenses
+- VPN access for secure connection to company networks
+- Mobile phone allowance of $50 per month
+- Ergonomic equipment upon request (chair, monitor, keyboard)
+
+Employees are responsible for:
+- Maintaining a secure workspace
+- Ensuring reliable high-speed internet connection (minimum 25 Mbps download)
+- Protecting company equipment from theft or damage
+- Returning all equipment upon termination of employment
+
+4. WORKING HOURS AND AVAILABILITY
+
+Remote employees must:
+- Maintain regular business hours (9 AM - 5 PM local time) unless otherwise approved
+- Be available for video conferences and team meetings
+- Respond to emails and messages within 4 hours during business hours
+- Use company time tracking software to log hours worked
+- Take regular breaks and maintain work-life balance
+
+5. COMMUNICATION REQUIREMENTS
+
+All remote employees must:
+- Participate in daily team standup meetings via video conference
+- Use Slack for instant messaging and quick communications
+- Attend weekly one-on-one meetings with their supervisor
+- Provide weekly status reports by Friday 5 PM
+- Be present for quarterly in-person team meetings
+
+6. PERFORMANCE EXPECTATIONS
+
+Remote work performance will be evaluated based on:
+- Quality and timeliness of work deliverables
+- Meeting project deadlines and milestones
+- Active participation in team activities and meetings
+- Professional communication and collaboration
+- Adherence to company policies and procedures
+
+7. DATA SECURITY AND CONFIDENTIALITY
+
+Remote employees must:
+- Use only company-approved software and applications
+- Encrypt all sensitive data and communications
+- Never store confidential information on personal devices
+- Report any security incidents immediately
+- Complete annual cybersecurity training
+
+8. WORKSPACE REQUIREMENTS
+
+Home office must include:
+- Dedicated workspace free from distractions
+- Proper lighting and ventilation
+- Ergonomic seating and desk setup
+- Secure storage for confidential documents
+- Professional background for video calls
+
+9. EXPENSES AND REIMBURSEMENTS
+
+ACME Corporation will reimburse:
+- Internet service costs up to $75 per month
+- Office supplies and equipment as pre-approved
+- Software subscriptions required for work
+- Professional development courses related to job function
+
+Employees must submit expense reports with receipts by the 5th of each month.
+
+10. POLICY VIOLATIONS
+
+Failure to comply with this policy may result in:
+- Verbal or written warnings
+- Revocation of remote work privileges
+- Performance improvement plans
+- Disciplinary action up to and including termination
+
+11. POLICY UPDATES
+
+This policy will be reviewed annually and updated as necessary to reflect changing business needs and technology advancements. All employees will be notified of policy changes via email and company intranet.
+
+For questions about this policy, contact HR at hr@acmecorp.com or call (555) 123-4567.
+
+ACME Corporation reserves the right to modify this policy at any time with or without notice. 
